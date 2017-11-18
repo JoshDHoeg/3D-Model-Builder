@@ -1,0 +1,31 @@
+﻿  main.cpp
+c:\users\josh hoeg\documents\school\systemsworkspace\joshoeg\homework8\homework8\csg.hpp(9): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\josh hoeg\documents\school\systemsworkspace\joshoeg\homework8\homework8\csg.hpp(11): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+c:\users\josh hoeg\documents\school\systemsworkspace\joshoeg\homework8\homework8\csg.hpp(52): warning C4458: declaration of 'p1' hides class member
+  c:\users\josh hoeg\documents\school\systemsworkspace\joshoeg\homework8\homework8\csg.hpp(28): note: see declaration of 'Line::p1'
+c:\users\josh hoeg\documents\school\systemsworkspace\joshoeg\homework8\homework8\csg.hpp(52): warning C4458: declaration of 'p2' hides class member
+  c:\users\josh hoeg\documents\school\systemsworkspace\joshoeg\homework8\homework8\csg.hpp(28): note: see declaration of 'Line::p2'
+c:\users\josh hoeg\documents\school\systemsworkspace\joshoeg\homework8\homework8\main.cpp(26): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\josh hoeg\documents\school\systemsworkspace\joshoeg\homework8\homework8\main.cpp(18): warning C4100: 'argv': unreferenced formal parameter
+c:\users\josh hoeg\documents\school\systemsworkspace\joshoeg\homework8\homework8\main.cpp(18): warning C4100: 'argc': unreferenced formal parameter
+c:\users\josh hoeg\documents\school\systemsworkspace\joshoeg\homework8\homework8\main.cpp(81): warning C4018: '<': signed/unsigned mismatch
+c:\users\josh hoeg\documents\school\systemsworkspace\joshoeg\homework8\homework8\myarray.hpp(68): warning C4018: '<': signed/unsigned mismatch
+  c:\users\josh hoeg\documents\school\systemsworkspace\joshoeg\homework8\homework8\myarray.hpp(62): note: while compiling class template member function 'MyArray<uint64_t> &MyArray<uint64_t>::operator =(const MyArray<uint64_t> &)'
+  c:\users\josh hoeg\documents\school\systemsworkspace\joshoeg\homework8\homework8\main.cpp(97): note: see reference to function template instantiation 'MyArray<uint64_t> &MyArray<uint64_t>::operator =(const MyArray<uint64_t> &)' being compiled
+  c:\users\josh hoeg\documents\school\systemsworkspace\joshoeg\homework8\homework8\bitvector.hpp(30): note: see reference to class template instantiation 'MyArray<uint64_t>' being compiled
+  CSG.cpp
+c:\users\josh hoeg\documents\school\systemsworkspace\joshoeg\homework8\homework8\csg.hpp(9): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\josh hoeg\documents\school\systemsworkspace\joshoeg\homework8\homework8\csg.hpp(11): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+c:\users\josh hoeg\documents\school\systemsworkspace\joshoeg\homework8\homework8\csg.hpp(52): warning C4458: declaration of 'p1' hides class member
+  c:\users\josh hoeg\documents\school\systemsworkspace\joshoeg\homework8\homework8\csg.hpp(28): note: see declaration of 'Line::p1'
+c:\users\josh hoeg\documents\school\systemsworkspace\joshoeg\homework8\homework8\csg.hpp(52): warning C4458: declaration of 'p2' hides class member
+  c:\users\josh hoeg\documents\school\systemsworkspace\joshoeg\homework8\homework8\csg.hpp(28): note: see declaration of 'Line::p2'
+c:\users\josh hoeg\documents\school\systemsworkspace\joshoeg\homework8\homework8\csg.cpp(14): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\josh hoeg\documents\school\systemsworkspace\joshoeg\homework8\homework8\csg.cpp(15): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\josh hoeg\documents\school\systemsworkspace\joshoeg\homework8\homework8\csg.cpp(16): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  Generating Code...
+main.obj : error LNK2005: "public: __thiscall Line::Line(struct Point3D,struct Point3D,float)" (??0Line@@QAE@UPoint3D@@0M@Z) already defined in CSG.obj
+main.obj : error LNK2005: "public: virtual bool __thiscall Line::InsideShape(struct Point3D)" (?InsideShape@Line@@UAE_NUPoint3D@@@Z) already defined in CSG.obj
+main.obj : error LNK2005: "private: struct Point3D __thiscall Line::cross(struct Point3D,struct Point3D)" (?cross@Line@@AAE?AUPoint3D@@U2@0@Z) already defined in CSG.obj
+main.obj : error LNK2005: "private: float __thiscall Line::magnitude(struct Point3D)" (?magnitude@Line@@AAEMUPoint3D@@@Z) already defined in CSG.obj
+C:\Users\Josh Hoeg\Documents\school\SystemsWorkspace\joshoeg\Homework8\Debug\Homework8.exe : fatal error LNK1169: one or more multiply defined symbols found
